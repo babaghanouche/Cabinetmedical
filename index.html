@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Cabinet de Néphrologie – Mostaganem</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Cabinet de Néphrologie – Mostaganem</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="photos-section">
+      <div class="photo-card">
+        <img src="images/cabinet1.jpg" alt="Cabinet 1">
+        <p>Cabinet 1</p>
+      </div>
+      <div class="photo-card">
+        <img src="images/cabinet2.jpg" alt="Cabinet 2">
+        <p>Cabinet 2</p>
+      </div>
+      <div class="photo-card">
+        <img src="images/docteur.jpg" alt="Docteur">
+        <p>Docteur</p>
+      </div>
+    </section>
+    <section>
+      <h2>Bienvenue</h2>
+      <p>Consultations en néphrologie à Mostaganem.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Cabinet de Néphrologie – Mostaganem</p>
+  </footer>
+
+  <!-- Chatbot floating button and window -->
+  <div id="chatbot-container">
+    <div id="chatbot-button" onclick="toggleChatbot()">
+      <img src="images/bonhomme.png" alt="Chatbot" />
+    </div>
+    <div id="chatbot-window" style="display:none;">
+      <div id="chatbot-header">
+        <span>Chatbot du Cabinet</span>
+        <button onclick="toggleChatbot()">×</button>
+      </div>
+      <div id="chatbox"></div>
+      <input type="text" id="userInput" placeholder="Posez votre question...">
+      <button onclick="sendMessage()">Envoyer</button>
+    </div>
+  </div>
+  <script src="mmain.js"></script>
+</body>
+</html>
