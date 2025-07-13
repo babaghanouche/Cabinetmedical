@@ -24,8 +24,8 @@ function sendMessage() {
   const msg = message.toLowerCase();
   if (msg.includes("horaire")) {
     response = "Le cabinet est ouvert du samedi au jeudi de 9h à 17h.";
-  } else if (msg.includes("Bloc 32, Cité 05 juillet, Mostaganem")) {
-    response = "Nous sommes situés à Mostaganem.";
+  } else if (msg.includes("adresse ")) {
+    response = "Nous sommes situés Bloc 32, Cité 05 juillet, Mostaganem.";
   } else if (msg.includes("rendez-vous") || msg.includes("rdv")) {
     response = "Pour prendre rendez-vous, appelez le 044 59 67 86 ou utilisez le formulaire de contact sur le site.";
   } else if (msg.includes("néphrologie")) {
