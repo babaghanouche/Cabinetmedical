@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Services – Néphrologie Mostaganem</title>
+  <meta name="description" content="Services proposés par le cabinet de néphrologie à Mostaganem.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="site-title">Néphrologie Mostaganem</a>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="about.html">Le Cabinet</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="legal.html">Légal</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="services">
+      <h1>Nos Services</h1>
+      <div class="service-list">
+        <div>
+          <h2>Consultation néphrologique</h2>
+          <p>Diagnostic et suivi des maladies rénales.</p>
+        </div>
+        <div>
+          <h2>Bilan rénal complet</h2>
+          <p>Examens et analyses spécialisées.</p>
+        </div>
+        <div>
+          <h2>Suivi de dialyse</h2>
+          <p>Accompagnement et contrôle régulier des patients dialysés.</p>
+        </div>
+        <div>
+          <h2>Éducation thérapeutique</h2>
+          <p>Conseils, prévention et soutien au quotidien.</p>
+        </div>
+      </div>
+      <div class="gallery">
+        <h2>Le cabinet en images</h2>
+        <div class="gallery-grid">
+          <img src="assets/cabinet1.jpg" alt="Salle d'attente">
+          <img src="assets/cabinet2.jpg" alt="Salle de consultation">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <small>&copy; 2025 Dr. [Nom] – Cabinet Néphrologie Mostaganem</small>
+  </footer>
+  <!-- Chatbot Botpress -->
+  <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+  <script>
+    window.botpressWebChat.init({
+      botId: "TON_BOT_ID",
+      hostUrl: "https://cdn.botpress.cloud/webchat/v1",
+      botName: "Assist Néphro",
+      botAvatarUrl: "assets/docteur.jpg",
+      locale: "fr"
+    });
+  </script>
+</body>
+</html>

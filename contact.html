@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact – Néphrologie Mostaganem</title>
+  <meta name="description" content="Contact, accès et formulaire de demande au cabinet de néphrologie à Mostaganem.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="site-title">Néphrologie Mostaganem</a>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="about.html">Le Cabinet</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="legal.html">Légal</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="contact">
+      <h1>Nous contacter</h1>
+      <div class="contact-grid">
+        <div>
+          <h2>Adresse</h2>
+          <p>Rue [Adresse], Mostaganem, Algérie</p>
+        </div>
+        <div>
+          <h2>Téléphone</h2>
+          <p>+213 [Numéro]</p>
+        </div>
+        <div>
+          <h2>Email</h2>
+          <p>contact@nephro-mostaganem.dz</p>
+        </div>
+      </div>
+      <h2>Formulaire de demande</h2>
+      <form>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+        <label for="demande">Votre demande :</label>
+        <textarea id="demande" name="demande" rows="5" required></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+      <h2>Accès</h2>
+      <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=0.0,0.0,0.0,0.0&amp;layer=mapnik" width="100%" height="300" frameborder="0"></iframe>
+    </section>
+  </main>
+  <footer>
+    <small>&copy; 2025 Dr. [Nom] – Cabinet Néphrologie Mostaganem</small>
+  </footer>
+  <!-- Chatbot Botpress -->
+  <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+  <script>
+    window.botpressWebChat.init({
+      botId: "TON_BOT_ID",
+      hostUrl: "https://cdn.botpress.cloud/webchat/v1",
+      botName: "Assist Néphro",
+      botAvatarUrl: "assets/docteur.jpg",
+      locale: "fr"
+    });
+  </script>
+</body>
+</html>
